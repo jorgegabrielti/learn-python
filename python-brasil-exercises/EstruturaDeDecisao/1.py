@@ -11,7 +11,7 @@ if n1 > n2:
     maior = n1
 
 print(
-    f'Núméros digitados: \n'
+    f'Números digitados: \n'
     f'1º => {n1}\n'
     f'2º => {n2}\n\n'
     f'Maior => {maior}'
