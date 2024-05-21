@@ -8,7 +8,7 @@ n3 = input('Digite o 3º número: ')
 # Validação
 alfabeto = 'abcdefghijklmnopqrstuvwxyz'
 
-if (n1 in alfabeto) != False or (n2 in alfabeto) != False or (n3 in alfabeto) != False:
+if (n1 in alfabeto) or (n2 in alfabeto) or (n3 in alfabeto):
     print(f'### Os três (03) items precisam ser números ###')
     exit(0)
 

@@ -5,7 +5,9 @@ print('********** PRODUTO MAIS BARATO **********\n')
 produto1 = float(input('Produto 1 - Informe o valor: R$ '))
 produto2 = float(input('Produto 2 - Informe o valor: R$ '))
 produto3 = float(input('Produto 3 - Informe o valor: R$ '))
+
 print('')
+
 # Produto mais barato
 if produto1 < produto2 and produto2 < produto3:
     comprar = 'Produto 1: R$ ' + str(produto1)
