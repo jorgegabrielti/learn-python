@@ -7,6 +7,18 @@ horas_trabalhadas = int(input('Horas trabalhadas: '))
 # Cálculo
 salario = valor_hora * horas_trabalhadas
 
+mensagem = f'''
+SALÁRIO BRUTO
+
+VALOR DA HORA    : R$ {valor_hora}
+HORAS TRABALHADAS: R$ {horas_trabalhadas}
+-------------------------------------------
+SALÁRIO          : R$ {salario:.2f}
+'''
+
+print(mensagem)
+
+'''
 print('-------------------------------')
 print('SALÁRIO BRUTO')
 print(
@@ -15,3 +27,4 @@ print(
     '---------------------------------\n'
     f'Salário          : R$ {salario}'
 )
+'''

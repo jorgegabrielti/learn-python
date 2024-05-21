@@ -26,5 +26,5 @@ print(
     f'Cálculo 1: produto do dobro do 1º com metade do 2º ==> {calculo1}\n'
     f'Cálculo 2: soma do triplo do 1º com o 3º ==> {calculo2}\n'
     f'Cálculo 3: 3º elevado ao cudo ==> {calculo3}\n'
-    'Ah, miserávi !'
+    'Ah, miserávi!'
 )

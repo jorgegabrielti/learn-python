@@ -21,4 +21,4 @@ print(
 )
 
 # Observacao
-print('# O programa considera metros como medidada padrão')
+print('# O programa considera metros como medida padrão')
